@@ -1,0 +1,195 @@
+/*
+colors: dark orange #b25A00
+Light Orange: #FF8D19;
+orange: #ff80000;
+
+dark cyan: #0087b2;
+cyan: #00C1FF;
+
+
+
+more colors
+
+dark cyan #0084b2
+lighter #19C4FF
+blue #00BDFF
+Dark brown #B25C00
+Orange FF8300
+
+*/
+
+
+body {
+
+	background-color: #d8d8d8;
+	
+	
+    
+}
+
+.container {
+	background-color: #ffffff;
+	width:80%;
+
+	
+}
+
+h3 {
+
+	color:black;
+	font-family:Verdana,sans;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #00BCD4;
+	color:white;
+	padding:10px;
+	border-radius: 10px;
+	font-weight: 700;
+	
+}
+
+
+h4 {
+
+	color:white;
+	background-color: #ff5722;
+	font-family: 'Quicksand', sans-serif;
+	font-size:20px;
+	margin-top:40px;
+	color:white;
+	padding:10px;
+	border-radius: 10px;
+	font-weight: 700;
+	
+
+	
+}
+
+.jumbotron h1 {
+
+
+font-size: 100px;
+color:#ffffff;
+
+font-family: 'Quicksand', cursive;
+font-weight: 700;
+
+}
+
+
+
+
+
+
+.jumbotron h2{
+
+font-size: 40px;
+color:#ffffff;
+
+font-family: 'Quicksand', cursive;
+position: relative;
+bottom:40px;
+left:5px;
+
+
+}
+.jumbotron {
+
+	background-color: #00BCD4;
+	border-radius: 0px;
+}
+
+p {
+
+	font-size:18px;
+	color: #000000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+
+}
+
+
+
+
+.right_div {
+
+
+
+}
+
+
+.my_journey, .my_strengths {
+	width:100%; 
+	height:100%;
+}
+
+
+ul {
+ overflow: auto;
+}
+ 
+ul li {
+ list-style-type: none;
+ float: left;
+}
+ 
+ul li a i {
+ background: #205D7A;
+ color: #fff;
+ width: 40px;
+ height: 40px;
+ border-radius: 20px;
+ font-size: 25px;
+ text-align: center;
+ margin-right: 10px;
+ padding-top: 15%;
+}
+ 
+
+ @media (max-width: 1000px) {
+  .container{
+    width:100%;
+  }
+
+ 
+
+  
+}
+
+
+.my_videos {
+	height:400px;
+	border: 8px solid #00BCD4;
+	float:right;
+	width:48%;
+	margin-top:20px;
+	margin-right:2px;
+	padding-top:100px;
+	background-image: url("images/gray_jean_@2X");
+    background-repeat: repeat;
+}
+
+.my_videos h2 {
+	font-size: 100px;
+color:#000000;
+
+font-family: 'Quicksand', cursive;
+text-align: center;
+}
+
+.my_videos p {
+	font-family: 'Quicksand', cursive;
+	font-weight: 700;
+	text-align: center;
+	font-size:30px;
+
+
+}
+
+
+.bottom {
+	width:100%;
+	height:50px;
+	margin-top:200px;
+	background-color: #0097A7;
+	clear:both;
+}
