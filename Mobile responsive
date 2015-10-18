@@ -1,0 +1,311 @@
+Mobile responsive
+
+Neusa font
+
+How it was
+
+What can we do?
+
+mobile first is responsive design
+
+Responsive 
+
+adaptive breaks out when a certain width is achieved then it changes the size
+
+Breakpoints make stuff movei down instead of procent that makes everything small
+
+Max width, that makes it responsie.
+
+
+
+Not devices but capabilites, 
+
+Mobile first = content first
+
+we make the content good for small devices, 
+
+RESPONSIVE DESIGN AND PROCESS
+
+Set breakpoint on contents and not resolutions.
+
+See when your design BREAKPOiNTS expands until it looks bad "breaks" that is when you need a breakpoint so it looks good.
+
+Start fromt the bad and then add to that, not the bst in the start casue that is not themmost adaptable
+
+
+
+
+Hover to not have vital stuff there that the mobile device does not support
+
+Fat finger freindly have padding
+
+
+svg works wel for image scale or 2x 3x for flat design 
+
+Do not load stuff to much in the beginning like images that you need later.
+
+Because people leave the first 5 seconds, at least 75 % of them
+
+
+
+PART 2 (Deux)
+
+VIewport define viewport that should use the size of the device instead of showing the whole site.
+
+intial-scale - if it should be zoomed in or not.
+
+<meta name="viewport" content="width=device-width, intial-scale=1.0" />
+
+Normalize styles
+
+Normalize.css load on the first stylesheet you load.
+
+
+* {
+	
+		box-sizing:border-box;
+
+	}
+
+	changes the box model in the browser
+}
+	with normal width takes100% of its parent. + whatever the border is.
+	Adding this, you are saying if you have a width, it should contain even the border and padding, that is detracted from it.
+	So now you can use 100% width and it is aswell.
+
+
+
+
+fill veiwport heihgt
+
+body, html {
+	
+	width:100%;
+}
+
+take us of the whole viewport height, if you have to support internet explorer 8
+
+
+felxible media 
+
+img {
+	
+
+	max-width:100%
+	height:auto;
+	//height as same ratio 
+}
+
+grow full size of it s parent container, it never becomes bluryy, until it reaches it naturals size
+
+
+
+Responsive units
+
+em - Basically the width of one charachter in the current font.
+Depended in the context, 
+
+rem - relative to font-size of html element, by default 16 px is the html default size,
+
+1 rem is 16px. 
+
+target pixels 24 / context 16 = result is in REM
+
+24/16 = 1.5rem
+
+
+caniuse.com to see browsers what you can use.
+Which browser that supports a function
+
+
+
+
+New usefull units
+viewport units
+
+
+100vh that is the whole width
+
+
+vw = equals 1 % of viewport width
+vh = 1 % of viewport height
+
+css calc()
+
+nativly built in, that allows to calc values runtime in the browswer
+
+calculate, the result of combiingin different units.
+
+width: calc(100%-20px) it is 100% but you want to take away 20px.
+
+
+Fluid typography
+
+How to make it all look goood.
+
+DO not be afraid of using big fonts, the further people are from the screen the bigger the font should be.
+
+@media screen and (min-width:700px) {
+	
+	html {
+		font-size=24px
+	}
+}
+
+All the heading and the text and fonts to increase their size in relation to the screen size.
+
+
+You use these rems and then the media screen to make it better.
+
+h1 {
+	font-size:2rem;
+}
+
+
+
+45-75 characters per line is the sweet spot of reading.
+
+
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
+
+
+line height:
+
+it should be related to the font-size.
+
+
+body{
+	
+	-webkit-font-smoothing: antialiased;
+}
+
+It looks crips, makes font thicker but more smoothe
+
+it will look the same as photoshop in the browser, only works with webkit.
+
+
+
+
+
+Responsive grids
+
+
+
+
+
+
+.main, .sidebar {
+	
+	display:block
+}
+
+
+using media queries to change the float so theboxes are smaller and can go beside each other or under.
+
+
+
+
+Make your grid suit your content.
+
+
+Responsive layout
+
+The flexbox ?!?! :0 omg whatt!
+ Can do stuff we could only acheive with javascript.
+
+ Like changing the order of elements, vertical scrolling
+
+ you write:
+
+
+ Problem with flex they have change the syntax, you need to know about the new and old syntax when you google
+ flex solutions.
+
+
+Decect Capabilites
+
+modernizr
+
+you click download and get list of different test you can include..
+
+Equalizer sees test it cannot do, then you can do stuff like when ti does
+not have touch you can find solutions for hover, or other stuff to do.
+
+
+
+
+MEdia Queries
+
+orientation if it is potrait or landscape.
+
+aspect ratio
+
+min-width
+max.width
+orientation
+
+
+
+
+
+
+Feature detection
+
+
+Last 100 slides :D:D:D
+
+
+
+SASS
+
+mixin - function that define that we can reuse ti certain styles, 
+
+
+
+Modular css.
+
+
+@extends in Sass watche out!
+
+BEM class names tells a story
+
+same name in the beginning and actual name with double undersicre __
+
+and -- to methods
+
+
+
+Input types to make it easier for the user on the phone
+
+date and time, 
+
+
+Working with gestures (GESTURES WOAAAH!)
+
+
+hammer.js takes care of gestures
+
+
+
+Responsive javascript
+
+:D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D :D 
+
+matchmedia polyfill : makes it work in all browser in moderizr.mq, pass in a mediaquery.
+you can activate or deactivate a javascript.
+
+
+
+
+Make a budget, or requierements, how long shouldit take to see something, how many request will you have on your page. 
+
+C:
+
+
+
+
+
+
+
+
